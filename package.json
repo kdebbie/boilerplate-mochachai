@@ -8,7 +8,7 @@
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js",
-		"dev": ""
+		"dev": "nodemon server.js"
 	},
 	"dependencies": {
 		"body-parser": "^1.15.2",
@@ -17,7 +17,6 @@
 		"cors": "^2.8.1",
 		"express": "^5.0.0-alpha.2",
 		"mocha": "^8.3.2",
-		"nodemon": "^2.0.7",
 		"zombie": "^6.1.4"
 	},
 	"repository": {
